@@ -1,0 +1,133 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.HelloWorld", "01.HelloWorld", "{7145A3F6-F5EA-44F5-96D6-C3349687A263}"
+	ProjectSection(SolutionItems) = preProject
+		SK01.HelloWorld.Asserts\01.rabbitmq-initial-status.png = SK01.HelloWorld.Asserts\01.rabbitmq-initial-status.png
+		SK01.HelloWorld.Asserts\02.rabbitmq-process-status.png = SK01.HelloWorld.Asserts\02.rabbitmq-process-status.png
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SK01.HelloWorld.Sender", "SK01.HelloWorld.Sender\SK01.HelloWorld.Sender.csproj", "{D383D427-3C27-4E19-9ABD-14F75BDF4B17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SK01.HelloWorld.Receiver", "SK01.HelloWorld.Receiver\SK01.HelloWorld.Receiver.csproj", "{DC04003A-860B-40B8-BC0C-D0DD399BDD06}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.WorkQueues", "02.WorkQueues", "{87ED02CC-5EEC-482A-AA10-A60AE9947A2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SK02.WorkQueues.NewTask", "SK02.WorkQueues.NewTask\SK02.WorkQueues.NewTask.csproj", "{2E918E3C-B944-4370-9FC6-18EEDB53EE02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SK02.WorkQueues.Worker", "SK02.WorkQueues.Worker\SK02.WorkQueues.Worker.csproj", "{D3F2ABDE-85E2-49F6-84E1-659CC14E624B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.PublishSubscribe", "03.PublishSubscribe", "{2F41D88A-7D23-4EF3-BC58-01036A24CF66}"
+	ProjectSection(SolutionItems) = preProject
+		SK03.PublishSubscribe.Asserts\01.rabbitmq-process-status.png = SK03.PublishSubscribe.Asserts\01.rabbitmq-process-status.png
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SK03.PublishSubscribe.ReceiveLogs", "SK03.PublishSubscribe.ReceiveLogs\SK03.PublishSubscribe.ReceiveLogs.csproj", "{DA276904-CA5F-4B49-821C-9AB96AA55813}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SK03.PublishSubscribe.EmitLog", "SK03.PublishSubscribe.EmitLog\SK03.PublishSubscribe.EmitLog.csproj", "{F8CE13C7-3798-41B6-BEF6-5BD1DADF5217}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.Routing", "04.Routing", "{321F3763-4522-4D00-B31D-5940DA7B437B}"
+	ProjectSection(SolutionItems) = preProject
+		SK04.Routing.Asserts\01.rabbitmq-process-status.png = SK04.Routing.Asserts\01.rabbitmq-process-status.png
+		SK04.Routing.Asserts\rabbitmq-routing.png = SK04.Routing.Asserts\rabbitmq-routing.png
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SK04.Routing.ReceiveLogsDirect", "SK04.Routing.ReceiveLogsDirect\SK04.Routing.ReceiveLogsDirect.csproj", "{EC5BF579-FF65-4550-80CE-7C30C5390868}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SK04.Routing.EmitLogDirect", "SK04.Routing.EmitLogDirect\SK04.Routing.EmitLogDirect.csproj", "{214EC64D-294C-4C51-8E23-43C0F2B3D6B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05.Topics", "05.Topics", "{E8A1D944-BEBF-43EB-BAD3-D0272A3F59E6}"
+	ProjectSection(SolutionItems) = preProject
+		SK05.Topics.Asserts\01.rabbitmq-process-status.png = SK05.Topics.Asserts\01.rabbitmq-process-status.png
+		SK05.Topics.Asserts\rabbitmq-topics.png = SK05.Topics.Asserts\rabbitmq-topics.png
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SK05.Topics.EmitLogTopic", "SK05.Topics.EmitLogTopic\SK05.Topics.EmitLogTopic.csproj", "{7CEB1746-7AC9-42CF-9470-E39BB2178FEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SK05.Topics.ReceiveLogsTopic", "SK05.Topics.ReceiveLogsTopic\SK05.Topics.ReceiveLogsTopic.csproj", "{4528D5FD-BB96-4A34-9422-8D6357523B97}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06.RemoteProcedureCall", "06.RemoteProcedureCall", "{474E3EC4-A389-40E6-BE48-CBBE7A0A0AAD}"
+	ProjectSection(SolutionItems) = preProject
+		SK06.RPC.Asserts\01.rabbitmq-process-status.png = SK06.RPC.Asserts\01.rabbitmq-process-status.png
+		SK06.RPC.Asserts\rabbitmq-rpc.png = SK06.RPC.Asserts\rabbitmq-rpc.png
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SK06.RPC.Client", "SK06.RPC.Client\SK06.RPC.Client.csproj", "{3A87246F-866D-4321-86DF-5CD5335BD581}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SK06.RPC.Server", "SK06.RPC.Server\SK06.RPC.Server.csproj", "{7DA7ED64-AFF3-475D-ACFA-3E6758EE185C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D383D427-3C27-4E19-9ABD-14F75BDF4B17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D383D427-3C27-4E19-9ABD-14F75BDF4B17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D383D427-3C27-4E19-9ABD-14F75BDF4B17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D383D427-3C27-4E19-9ABD-14F75BDF4B17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC04003A-860B-40B8-BC0C-D0DD399BDD06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC04003A-860B-40B8-BC0C-D0DD399BDD06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC04003A-860B-40B8-BC0C-D0DD399BDD06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC04003A-860B-40B8-BC0C-D0DD399BDD06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E918E3C-B944-4370-9FC6-18EEDB53EE02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E918E3C-B944-4370-9FC6-18EEDB53EE02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E918E3C-B944-4370-9FC6-18EEDB53EE02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E918E3C-B944-4370-9FC6-18EEDB53EE02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3F2ABDE-85E2-49F6-84E1-659CC14E624B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3F2ABDE-85E2-49F6-84E1-659CC14E624B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3F2ABDE-85E2-49F6-84E1-659CC14E624B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3F2ABDE-85E2-49F6-84E1-659CC14E624B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA276904-CA5F-4B49-821C-9AB96AA55813}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA276904-CA5F-4B49-821C-9AB96AA55813}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA276904-CA5F-4B49-821C-9AB96AA55813}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA276904-CA5F-4B49-821C-9AB96AA55813}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8CE13C7-3798-41B6-BEF6-5BD1DADF5217}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8CE13C7-3798-41B6-BEF6-5BD1DADF5217}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8CE13C7-3798-41B6-BEF6-5BD1DADF5217}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8CE13C7-3798-41B6-BEF6-5BD1DADF5217}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC5BF579-FF65-4550-80CE-7C30C5390868}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC5BF579-FF65-4550-80CE-7C30C5390868}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC5BF579-FF65-4550-80CE-7C30C5390868}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC5BF579-FF65-4550-80CE-7C30C5390868}.Release|Any CPU.Build.0 = Release|Any CPU
+		{214EC64D-294C-4C51-8E23-43C0F2B3D6B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{214EC64D-294C-4C51-8E23-43C0F2B3D6B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{214EC64D-294C-4C51-8E23-43C0F2B3D6B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{214EC64D-294C-4C51-8E23-43C0F2B3D6B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CEB1746-7AC9-42CF-9470-E39BB2178FEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CEB1746-7AC9-42CF-9470-E39BB2178FEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CEB1746-7AC9-42CF-9470-E39BB2178FEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CEB1746-7AC9-42CF-9470-E39BB2178FEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4528D5FD-BB96-4A34-9422-8D6357523B97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4528D5FD-BB96-4A34-9422-8D6357523B97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4528D5FD-BB96-4A34-9422-8D6357523B97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4528D5FD-BB96-4A34-9422-8D6357523B97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A87246F-866D-4321-86DF-5CD5335BD581}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A87246F-866D-4321-86DF-5CD5335BD581}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A87246F-866D-4321-86DF-5CD5335BD581}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A87246F-866D-4321-86DF-5CD5335BD581}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DA7ED64-AFF3-475D-ACFA-3E6758EE185C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DA7ED64-AFF3-475D-ACFA-3E6758EE185C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DA7ED64-AFF3-475D-ACFA-3E6758EE185C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DA7ED64-AFF3-475D-ACFA-3E6758EE185C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D383D427-3C27-4E19-9ABD-14F75BDF4B17} = {7145A3F6-F5EA-44F5-96D6-C3349687A263}
+		{DC04003A-860B-40B8-BC0C-D0DD399BDD06} = {7145A3F6-F5EA-44F5-96D6-C3349687A263}
+		{2E918E3C-B944-4370-9FC6-18EEDB53EE02} = {87ED02CC-5EEC-482A-AA10-A60AE9947A2A}
+		{D3F2ABDE-85E2-49F6-84E1-659CC14E624B} = {87ED02CC-5EEC-482A-AA10-A60AE9947A2A}
+		{DA276904-CA5F-4B49-821C-9AB96AA55813} = {2F41D88A-7D23-4EF3-BC58-01036A24CF66}
+		{F8CE13C7-3798-41B6-BEF6-5BD1DADF5217} = {2F41D88A-7D23-4EF3-BC58-01036A24CF66}
+		{EC5BF579-FF65-4550-80CE-7C30C5390868} = {321F3763-4522-4D00-B31D-5940DA7B437B}
+		{214EC64D-294C-4C51-8E23-43C0F2B3D6B0} = {321F3763-4522-4D00-B31D-5940DA7B437B}
+		{7CEB1746-7AC9-42CF-9470-E39BB2178FEA} = {E8A1D944-BEBF-43EB-BAD3-D0272A3F59E6}
+		{4528D5FD-BB96-4A34-9422-8D6357523B97} = {E8A1D944-BEBF-43EB-BAD3-D0272A3F59E6}
+		{3A87246F-866D-4321-86DF-5CD5335BD581} = {474E3EC4-A389-40E6-BE48-CBBE7A0A0AAD}
+		{7DA7ED64-AFF3-475D-ACFA-3E6758EE185C} = {474E3EC4-A389-40E6-BE48-CBBE7A0A0AAD}
+	EndGlobalSection
+EndGlobal
